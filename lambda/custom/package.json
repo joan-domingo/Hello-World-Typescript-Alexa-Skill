@@ -4,6 +4,8 @@
   "description": "Hello World Alexa Skill using ASK Nodejs SDK",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -11,5 +13,8 @@
   "dependencies": {
     "ask-sdk-core": "2.0.*",
     "ask-sdk-model": "1.4.*"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.4"
   }
 }
